@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(238, 230, 222);
+}
+
+.name{
+    color: rgb(95, 233, 187);
+    background-color: rgba(150, 143, 143, 0.171);
+    border-radius: 4px;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+}
+.name, .nav, .carousel-inner{
+    margin-top: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: black;
+    background-color: rgb(95, 233, 187);
+} 
+
+a.bar_style.flex-sm-fill.text-sm-center.nav-link, .btn{
+    color: black;
+    font-size: 30px;
+}
+
+.carousel-inner{
+    height: 700px;
+}
